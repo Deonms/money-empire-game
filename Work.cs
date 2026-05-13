@@ -8,6 +8,19 @@ namespace Money_Empire_Game
 {
     internal class Work
     {
-        //ss
+        Cat cleo = new Cat("Cleo", 10);
+
+        Cat wheezy = new Cat("Wheezy", 8);
+        public void start()
+        {
+            cleo.SayName();
+            cleo.Zeuren();
+            cleo.Sleep();
+            wheezy.SayName();
+            wheezy.Miauw();
+            wheezy.Sleep();
+        }
+
+
     }
 }

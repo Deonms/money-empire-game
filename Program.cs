@@ -10,7 +10,8 @@ namespace Money_Empire_Game
     {
         static void Main(string[] args)
         {
-            //ss
+            Game game = new Game();
+            game.start();
         }
     }
 }

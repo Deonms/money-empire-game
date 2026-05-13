@@ -1,0 +1,8 @@
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\bin\Debug\Money Empire Game.exe.config
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\bin\Debug\Money Empire Game.exe
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\bin\Debug\Money Empire Game.pdb
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\obj\Debug\Money Empire Game.csproj.AssemblyReference.cache
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\obj\Debug\Money Empire Game.csproj.CoreCompileInputs.cache
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\obj\Debug\Money Empire Game.exe
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\obj\Debug\Money Empire Game.pdb
+C:\Users\deonm\OneDrive\Desktop\school\Money Empire Game\money empire game\obj\Debug\Money Empire Game.exe.config
