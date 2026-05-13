@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CC8BA6-0D52-4AD1-A99C-4F72B9D6C216}|Money Empire Game.csproj|c:\\users\\deonm\\onedrive\\desktop\\school\\money empire game\\money empire game\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CC8BA6-0D52-4AD1-A99C-4F72B9D6C216}|Money Empire Game.csproj|solutionrelative:animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CC8BA6-0D52-4AD1-A99C-4F72B9D6C216}|Money Empire Game.csproj|c:\\users\\deonm\\onedrive\\desktop\\school\\money empire game\\money empire game\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CC8BA6-0D52-4AD1-A99C-4F72B9D6C216}|Money Empire Game.csproj|solutionrelative:work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CC8BA6-0D52-4AD1-A99C-4F72B9D6C216}|Money Empire Game.csproj|c:\\users\\deonm\\onedrive\\desktop\\school\\money empire game\\money empire game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CC8BA6-0D52-4AD1-A99C-4F72B9D6C216}|Money Empire Game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Work.cs",
+              "DocumentMoniker": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\Work.cs",
+              "RelativeDocumentMoniker": "Work.cs",
+              "ToolTip": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\Work.cs",
+              "RelativeToolTip": "Work.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:49:27.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animals.cs",
+              "DocumentMoniker": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\Animals.cs",
+              "RelativeDocumentMoniker": "Animals.cs",
+              "ToolTip": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\Animals.cs",
+              "RelativeToolTip": "Animals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:49:18.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\deonm\\OneDrive\\Desktop\\school\\Money Empire Game\\money empire game\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:48:58.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
