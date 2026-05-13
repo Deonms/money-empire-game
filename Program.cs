@@ -10,7 +10,7 @@ namespace Money_Empire_Game
     {
         static void Main(string[] args)
         {
-            //s
+            //ss
         }
     }
 }

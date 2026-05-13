@@ -8,5 +8,6 @@ namespace Money_Empire_Game
 {
     internal class Work
     {
+        //ss
     }
 }
