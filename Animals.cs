@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace Money_Empire_Game
     internal class Animals
     {
         private string _eyeColor;
-        public string EyeColor;
+        //public string EyeColor;
         protected string EyeColor2
         {
             get => _eyeColor;
@@ -18,5 +19,8 @@ namespace Money_Empire_Game
                 _eyeColor = value;
             }
         }
+
+        protected string SkinColor;
+        private string _name;
     }
 }
