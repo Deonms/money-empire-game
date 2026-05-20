@@ -12,11 +12,15 @@ namespace Money_Empire_Game
         private string _working;
         private float _money;
         private float _multiplier = 1;
+        public List<Shopping> ShoppingList = new List<Shopping>();
+        private Shopping _shop = new Shopping("", 0, "");
 
-        
+
+
 
         public void Earnmoney()
         {
+            _shop.AllShopItems();
             _working = Console.ReadLine();
             Console.Clear();
             if (_working == "work" || _working == "Work")
@@ -27,11 +31,14 @@ namespace Money_Empire_Game
             }
             else if (_working == "/shop help" || _working == "/shop Help")
             {
+                Console.Clear();
                 Console.WriteLine($"Money: {_money}");
                 Console.WriteLine($"Mulitplier: {_multiplier}");
-                foreach{
-                    Console
+                foreach (Shopping item in _shop.ShoppingList)
+                {
+                    item.SeeShop();
                 }
+
                 Console.WriteLine("use /shop buy (item)");
 
             }
