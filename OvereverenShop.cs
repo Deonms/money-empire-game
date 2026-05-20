@@ -9,6 +9,7 @@ namespace Money_Empire_Game
 {
     internal class OvereverenShop
     {
+        List<Shopping> ShoppingList = new List<Shopping>();
         private string _nameOfItem;
         private float _costOfItem;
         private string _infoOfItem;

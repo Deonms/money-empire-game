@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Money_Empire_Game
 {
-    internal class Shop
+    internal class EaningMoney
     {
-        private Shop _shop = new Shop("hi", 10, "info");
+        
         private string _working;
         private float _money;
         private float _multiplier = 1;
+
+        
 
         public void Earnmoney()
         {
@@ -26,8 +28,12 @@ namespace Money_Empire_Game
             else if (_working == "/shop help" || _working == "/shop Help")
             {
                 Console.WriteLine($"Money: {_money}");
-                Console.WriteLine($"Mulitplier: {_multiplier}")
-                Console.WriteLine("shopping");
+                Console.WriteLine($"Mulitplier: {_multiplier}");
+                foreach{
+                    Console
+                }
+                Console.WriteLine("use /shop buy (item)");
+
             }
             else
             {

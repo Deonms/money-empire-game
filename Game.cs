@@ -10,7 +10,7 @@ namespace Money_Empire_Game
     
     internal class Game
     {
-        private Shopping _earnmoneys = new Shopping();
+        private EaningMoney _earnmoneys = new EaningMoney();
 
         public void start()
         {
