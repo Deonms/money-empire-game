@@ -9,7 +9,7 @@ namespace Money_Empire_Game
 {
     internal class OvereverenShop
     {
-        
+        public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         private string _nameOfItem;
         private float _costOfItem;
         private string _infoOfItem;
@@ -25,9 +25,17 @@ namespace Money_Empire_Game
             _multiplierAdd = multiplieradd;
             _autoIncome = autoincome;
         }
-        public void SeeShop()
+        public void ShowItem()
         {
             Console.WriteLine($"{_nameOfItem} \n het kost: {_costOfItem} \n {_infoOfItem}");
+        }
+
+        public void SeeShop()
+        {
+            foreach (OvereverenShop item in ShoppingList)
+            {
+                item.ShowItem();
+            }
         }
     }
 }

@@ -15,11 +15,16 @@ namespace Money_Empire_Game
         string _nameOfItem;
         float _costOfItem;
         string _infoOfItem;
-        public List<Shopping> ShoppingList = new List<Shopping>();
+        public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         public void AllShopItems()
         {
-            Shopping item1 = new Shopping("String", 16, "Very good info", 0, 0);
-            ShoppingList.Add(item1);
+            ShoppingList.Add(new AutoIncomeItem("Vriend", 100, "Auto income +1/s", 0, 1));
+            ShoppingList.Add(new AutoIncomeItem("Bakkerij", 10000, "Auto income +10/s", 0, 10));
+            ShoppingList.Add(new AutoIncomeItem("Fabriek", 10000000, "Auto income +100/s", 0, 100));
+            ShoppingList.Add(new OneTimeItem("Beter ovens", 25000, "Multiplier +0.5", 0.5f, 0));
+            ShoppingList.Add(new OneTimeItem("Iets Beter ingredienten", 100, "Multiplier +0.125", 0.125f, 0));
+            ShoppingList.Add(new OneTimeItem("Beter ingredienten", 1000, "Multiplier +0.25", 0.25f, 0));
+            ShoppingList.Add(new OneTimeItem("Beter werk ruimte", 100000, "Multiplier +0.75", 0.75f, 0));
         }
         public Shopping(string nameOfItem, float costOfItem, string infoOfItem, float multiplieradd, float autoincome) : base(nameOfItem, costOfItem, infoOfItem, multiplieradd, autoincome)
         {

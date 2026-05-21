@@ -13,7 +13,7 @@ namespace Money_Empire_Game
         private float _money;
         private float _multiplier = 1;
         private float _cps = 0;
-        public List<Shopping> ShoppingList = new List<Shopping>();
+        public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         private Shopping _shop = new Shopping("", 0, "", 0, 0);
 
 
@@ -37,7 +37,7 @@ namespace Money_Empire_Game
                 Console.WriteLine($"Money: {_money}");
                 Console.WriteLine($"Mulitplier: {_multiplier}");
                 Console.WriteLine($"cps: {_cps}");
-                foreach (Shopping item in _shop.ShoppingList)
+                foreach (OvereverenShop item in _shop.ShoppingList)
                 {
                     item.SeeShop();
                 }
