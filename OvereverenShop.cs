@@ -13,14 +13,17 @@ namespace Money_Empire_Game
         private string _nameOfItem;
         private float _costOfItem;
         private string _infoOfItem;
+        private float _multiplierAdd;
+        private float _autoIncome;
 
-        
 
-        public OvereverenShop(string nameOfItem, float costOfItem, string infoOfItem)
+        public OvereverenShop(string nameOfItem, float costOfItem, string infoOfItem, float multiplieradd, float autoincome)
         {
             _nameOfItem = nameOfItem;
             _costOfItem = costOfItem;
             _infoOfItem = infoOfItem;
+            _multiplierAdd = multiplieradd;
+            _autoIncome = autoincome;
         }
         public void SeeShop()
         {

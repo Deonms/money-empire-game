@@ -12,8 +12,9 @@ namespace Money_Empire_Game
         private string _working;
         private float _money;
         private float _multiplier = 1;
+        private float _cps = 0;
         public List<Shopping> ShoppingList = new List<Shopping>();
-        private Shopping _shop = new Shopping("", 0, "");
+        private Shopping _shop = new Shopping("", 0, "", 0, 0);
 
 
 
@@ -28,12 +29,14 @@ namespace Money_Empire_Game
                 _money = _money + (1 * _multiplier);
                 Console.WriteLine($"Money: {_money}");
                 Console.WriteLine($"Mulitplier: {_multiplier}");
+                Console.WriteLine($"cps: {_cps}");
             }
             else if (_working == "/shop help" || _working == "/shop Help")
             {
                 Console.Clear();
                 Console.WriteLine($"Money: {_money}");
                 Console.WriteLine($"Mulitplier: {_multiplier}");
+                Console.WriteLine($"cps: {_cps}");
                 foreach (Shopping item in _shop.ShoppingList)
                 {
                     item.SeeShop();
@@ -46,6 +49,7 @@ namespace Money_Empire_Game
             {
                 Console.WriteLine($"Money: {_money}");
                 Console.WriteLine($"Mulitplier: {_multiplier}");
+                Console.WriteLine($"cps: {_cps}");
                 Console.WriteLine("Niet goed getypt");
             }
         }
