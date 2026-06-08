@@ -18,7 +18,7 @@ namespace Money_Empire_Game
             while (running)
             {
                 Console.WriteLine($"Type work to earn money");
-                Console.WriteLine($"Type /shop help to see what the shop sells");
+                Console.WriteLine($"Type '/shop help' to see what the shop sells");
                 _earnmoneys.Earnmoney();
             }
         }

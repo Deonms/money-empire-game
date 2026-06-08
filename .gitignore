@@ -9,12 +9,31 @@
 .vs/Money Empire Game/FileContentIndex/ef5518eb-3754-445c-8b49-0aa03276c9c8.vsidx
 .vs/Money Empire Game/FileContentIndex/7c6e83bb-9d8e-4046-9707-7da0b9c1c9eb.vsidx
 .vs/Money Empire Game/FileContentIndex/f998a18e-9e06-407f-8628-2321825f587f.vsidx
-*.db
-*.db-wal
+<<<<<<< HEAD
+.vs/Money Empire Game/FileContentIndex/eb8a008a-95c0-4adc-bdfa-777c780beac6.vsidx
+.vs/Money Empire Game/FileContentIndex/9fda519c-5e7b-4824-915b-049072a8cfc3.vsidx
+.vs/Money Empire Game/FileContentIndex/91a137b9-e6c6-40f0-a87d-153e5d1f6dbc.vsidx
+.vs/Money Empire Game/FileContentIndex/58d4b400-ec44-4faa-b3f0-50413229c536.vsidx
+.vs/Money Empire Game/FileContentIndex/2beae85b-a60a-4bde-a212-aac090ee482e.vsidx
+.vs/Money Empire Game/FileContentIndex/9ccafec6-4e06-41fe-80f3-5e7d11f67011.vsidx
+.vs/Money Empire Game/FileContentIndex/9ba3a7f0-f8ef-4a87-b9c6-24669123f44f.vsidx
+.vs/Money Empire Game/FileContentIndex/791d916e-76d4-4e79-a2c4-aa7d1bb276fe.vsidx
+.vs/Money Empire Game/FileContentIndex/49fd2e29-1deb-4163-b91b-5f6d7b47f7f0.vsidx
+.vs/Money Empire Game/FileContentIndex/f525f6d2-3e87-4cfd-a858-345e2635c192.vsidx
+.vs/Money Empire Game/FileContentIndex/956ea479-c696-4490-8e58-e811e377dfa6.vsidx
+.vs/Money Empire Game/FileContentIndex/72b72e17-4419-4da8-af5e-f1fa32e5b2ec.vsidx
+.vs/Money Empire Game/FileContentIndex/317f23e1-ed6d-4b5e-b36c-614c67a8da6c.vsidx
+.vs/Money Empire Game/FileContentIndex/65107fa0-044e-4696-becf-cc3a1b62718d.vsidx
+.vs/Money Empire Game/FileContentIndex/7f8da6aa-e2eb-4d45-a4e5-7e5bd8ee227c.vsidx
+.vs/Money Empire Game/FileContentIndex/a802e0d6-816b-4b12-a271-d7e299d0ccf2.vsidx
+.vs/Money Empire Game/FileContentIndex/a8d46ae6-c74a-4d03-9d1e-4f2b14e42f64.vsidx
+=======
+>>>>>>> parent of ba19e73 (Update .gitignore)
+.vs/Money Empire Game/FileContentIndex/5f263f70-8175-4c19-9993-5af55c33c8e5.vsidx
+.vs/Money Empire Game/FileContentIndex/80fc6d21-07a0-420a-b513-eff8471ef724.vsidx
+.vs/Money Empire Game/FileContentIndex/fdef685a-c8d6-4587-9158-8d0a764f9cb5.vsidx
 .vs/Money Empire Game/CopilotIndices/17.14.1641.39856/SemanticSymbols.db-shm
-.vs/Money Empire Game/CopilotIndices/17.14.1641.39856/SemanticSymbols.db
-.vs/Money Empire Game/FileContentIndex/004d6b08-0a9d-4104-a815-7bda43136e5e.vsidx
-.vs/Money Empire Game/FileContentIndex/74616f02-7778-4708-900d-59a528eb26c3.vsidx
-*.vsidx
-.vs/Money Empire Game/CopilotIndices/17.14.1641.39856/SemanticSymbols.db-shm
-.vs/Money Empire Game/CopilotIndices/17.14.1641.39856/SemanticSymbols.db
+.vs/Money Empire Game/CopilotIndices/17.14.1641.39856/SemanticSymbols.db-wal
+.vs/Money Empire Game/FileContentIndex/3effd599-2bd6-46ec-a62c-20fbee4b48c7.vsidx
+.vs/Money Empire Game/FileContentIndex/6aa72f31-ff4c-424a-b8d9-70e8b265ab0e.vsidx
+.vs/Money Empire Game/FileContentIndex/733aef06-d987-4a6a-98a2-7e6f12de4cee.vsidx

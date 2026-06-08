@@ -24,7 +24,7 @@ namespace Money_Empire_Game
                 _eyeColor = value;
             }
         }
-        protected string SkinColor;
+       // protected string SkinColor;
         private string _name;
 
         public void Sleep()
