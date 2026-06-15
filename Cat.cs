@@ -17,12 +17,17 @@ namespace Money_Empire_Game
         {
             Console.WriteLine($"i have a {_lengthTail} cm long");
             Console.WriteLine("Miauw");
-            
+
         }
         public void Zeuren()
         {
             Console.WriteLine($"i have a {_lengthTail} cm long");
             Console.WriteLine("Zeuren");
+        }
+        public void DeurOpenen()
+        {
+            Console.WriteLine($"i have a {_lengthTail} cm long");
+            Console.WriteLine("Opent een deur");
         }
     }
 }

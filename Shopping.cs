@@ -12,9 +12,9 @@ namespace Money_Empire_Game
         private string _working;
         private float _money;
         private float _multiplier = 1;
-        string _nameOfItem;
-        float _costOfItem;
-        string _infoOfItem;
+        private string _nameOfItem;
+        private float _costOfItem;
+        private string _infoOfItem;
         public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         public void AllShopItems()
         {

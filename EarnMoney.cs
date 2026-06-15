@@ -16,10 +16,23 @@ namespace Money_Empire_Game
         public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         private Shopping _shop = new Shopping("", 0, "");
         private bool _shopLoaded = false;
+        private float _boughtMultiplier = 1;
+        private int _timer;
+        private bool _gameRunning = false;
 
+        public float BoughtMultiplier
+        {
+            get { return _boughtMultiplier; }
+            set { _boughtMultiplier = value; }
+        }
 
-
-
+        public void Update()
+        {
+            while (_gameRunning)
+            {
+                Earnmoney();
+            }
+        }
 
         public void Earnmoney()
         {
@@ -28,13 +41,18 @@ namespace Money_Empire_Game
                 _shop.AllShopItems();
                 _shopLoaded = true;
             }
-
+            if (_timer == 30)
+            {
+                _timer = 0;
+                _money = _money + _autoIncome;
+            }
             _working = Console.ReadLine();
             Console.Clear();
 
             if (_working == "work" || _working == "Work")
             {
                 _money = _money + (1 * _multiplier);
+                _timer = _timer + 1;
             }
             else if (_working == "/shop help" || _working == "/shop Help")
             {
@@ -42,30 +60,36 @@ namespace Money_Empire_Game
                 {
                     item.ShowItem();
                 }
-
+                _timer = _timer + 1;
                 Console.WriteLine("use /shop buy (item)");
             }
-            else if (_working == "/shop buy String")
+            else if (_working == "/shop buy String" || _working == "/shop buy string")
             {
-                if (_money >= 5)
+                if (_money >= 5*_boughtMultiplier)
                 {
-                    _money = _money - 5;
+                    _money = _money - 5* _boughtMultiplier;
                     _autoIncome = _autoIncome + 1;
+                    _multiplier = _multiplier + 0.5f;
+                    _timer = _timer + 1;
                     Console.WriteLine("String is gekocht en boost je cps en je multiplier");
+                    _boughtMultiplier = _boughtMultiplier + 0.2f;
                 }
                 else
                 {
                     Console.WriteLine("je bent te arm voor dit");
+                    _timer = _timer + 1;
                 }
             }
             else
             {
                 Console.WriteLine("Niet goed getypt");
+                _timer = _timer + 1;
             }
 
             Console.WriteLine($"Money: {_money}");
             Console.WriteLine($"Mulitplier: {_multiplier}");
             Console.WriteLine($"Auto Income: {_autoIncome}");
+            Console.WriteLine($"Timer {_timer}");
         }
     }
 }

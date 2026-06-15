@@ -16,6 +16,7 @@ namespace Money_Empire_Game
             cleo.SayName();
             cleo.Zeuren();
             cleo.Sleep();
+            cleo.DeurOpenen();
             wheezy.SayName();
             wheezy.Miauw();
             wheezy.Sleep();
