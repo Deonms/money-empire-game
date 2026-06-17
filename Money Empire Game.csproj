@@ -50,6 +50,7 @@
     <Compile Include="OvereverenShop.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shopps.cs" />
     <Compile Include="Shopping.cs" />
     <Compile Include="Work.cs" />
   </ItemGroup>

@@ -18,8 +18,10 @@ namespace Money_Empire_Game
         public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         public void AllShopItems()
         {
-            OvereverenShop item1 = new OvereverenShop("string", 5, "speciale info");
+            OvereverenShop item1 = new OvereverenShop("Vriend", 5, "Boost je auto income met 0.5 \n de prijs gaat na aankop met 1,2 omhoog");
             ShoppingList.Add(item1);
+            OvereverenShop item2 = new OvereverenShop("Restaurant", 1000, "Boost je auto income met 5 \n de prijs gaat na aankop met 1,2 omhoog");
+            ShoppingList.Add(item2);
         }
         public Shopping(string nameOfItem, float costOfItem, string infoOfItem) : base(nameOfItem, costOfItem, infoOfItem)
         {

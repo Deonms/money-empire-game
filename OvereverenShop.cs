@@ -16,10 +16,7 @@ namespace Money_Empire_Game
         private float _multiplierAdd;
         private float _autoIncome;
 
-        public void Update(EaningMoney earningMoney)
-        {
-            _costOfItem = _costOfItem * earningMoney.BoughtMultiplier;
-        }
+        
 
         public OvereverenShop(string nameOfItem, float costOfItem, string infoOfItem)
         {
