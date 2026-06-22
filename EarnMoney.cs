@@ -59,11 +59,13 @@ namespace Money_Empire_Game
             {
                 _shopps.shops(_working, ref _money, ref _multiplier, ref _autoIncome, ref _timer, _shop.ShoppingList);
             }
-            else
+            
+                else
             {
                 Console.WriteLine("Niet goed getypt");
                 _timer = _timer + 1;
             }
+            
         }
     }
 }

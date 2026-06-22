@@ -240,6 +240,7 @@ namespace Money_Empire_Game
                     _maximumBoughtWorld = 1;
                     _timer = _timer + 1;
                     Console.WriteLine("Wereld is gekocht");
+                    Console.WriteLine("Je hebt de wereld overgenomen. \n Dus je hebt Gewonnen \n Ending: World Domination, Ending 1 out of 2");
                 }
                 else
                 {
