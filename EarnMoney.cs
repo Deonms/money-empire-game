@@ -21,6 +21,7 @@ namespace Money_Empire_Game
         private int _timer;
         private bool _gameRunning = false;
         private Shopps _shopps = new Shopps();
+        private float _goedDoelValue = 0;
 
         public void Update()
         {
@@ -49,6 +50,7 @@ namespace Money_Empire_Game
             Console.WriteLine($"Mulitplier: {_multiplier}");
             Console.WriteLine($"Auto Income: {_autoIncome}");
             Console.WriteLine($"Timer {_timer}");
+            Console.WriteLine($"{_goedDoelValue}/100000 gedoneert");
 
             if (_working == "work" || _working == "Work")
             {
@@ -59,13 +61,40 @@ namespace Money_Empire_Game
             {
                 _shopps.shops(_working, ref _money, ref _multiplier, ref _autoIncome, ref _timer, _shop.ShoppingList);
             }
-            
+            else if (_working.StartsWith("/doneer"))
+            {
+                string[] doneerText = _working.Split();
+
+                if (doneerText.Length > 1 && float.TryParse(doneerText[1], out float doneerMoney))
+                {
+                    if (_money >= doneerMoney)
+                    {
+                        _money = _money - doneerMoney;
+                        _goedDoelValue = _goedDoelValue + doneerMoney;
+                        _timer = _timer + 1;
+                        Console.WriteLine("je hebt geld gedoneert");
+                    }
+                    else
+                    {
+                        Console.WriteLine("je hebt niet genoeg geld");
+                        _timer = _timer + 1;
+                    }
+                }
                 else
+                {
+                    Console.WriteLine("gebruik /doneer (bedrag)");
+                    _timer = _timer + 1;
+                }
+            }
+            else
             {
                 Console.WriteLine("Niet goed getypt");
                 _timer = _timer + 1;
             }
-            
+            if (_goedDoelValue == 100000)
+            {
+                Console.WriteLine("je bent een goed mens \nje hebt de 2de einde gevonden");
+            }
         }
     }
 }

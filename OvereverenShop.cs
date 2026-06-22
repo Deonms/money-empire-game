@@ -36,5 +36,10 @@ namespace Money_Empire_Game
                 item.ShowItem();
             }
         }
+
+        public virtual void BuyUpgrade()
+        {
+
+        }
     }
 }
