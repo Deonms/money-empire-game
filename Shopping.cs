@@ -12,9 +12,6 @@ namespace Money_Empire_Game
         private string _working;
         private float _money;
         private float _multiplier = 1;
-        private string _nameOfItem;
-        private float _costOfItem;
-        private string _infoOfItem;
         public List<OvereverenShop> ShoppingList = new List<OvereverenShop>();
         public void AllShopItems()
         {
@@ -53,9 +50,18 @@ namespace Money_Empire_Game
             _infoOfItem = infoOfItem;
         }
 
-        public void shops()
+        public void BuyItem(string itemName, ref float money, ref float multiplier, ref float autoIncome)
         {
+            foreach (OvereverenShop item in ShoppingList)
+            {
+                if (item.GetName().ToLower() == itemName.ToLower())
+                {
+                    item.BuyUpgrade(ref money, ref multiplier, ref autoIncome);
+                    return;
+                }
+            }
 
+            Console.WriteLine("Dit shop item bestaat niet.");
         }
         public void buying()
         {
